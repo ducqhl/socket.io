@@ -52,9 +52,6 @@
         "is_parent": {
             "type": "Boolean"
         },
-        "items_amount": {
-            "type": "Integer"
-        },
         "is_transferable": {
             "type": "Boolean"
         }
