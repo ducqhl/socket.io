@@ -1,0 +1,62 @@
+{
+    "name": "InventoryCategory",
+    "version": "1",
+    "metadata": false,
+    "embedded": false,
+    "package": "inventory",
+    "indexes": [
+        {
+            "keys": [
+                "id"
+            ],
+            "options": {
+                "unique": true,
+                "primary": true
+            }
+        },
+        {
+            "keys": [
+                "name"
+            ],
+            "options": {
+                "unique": true
+            }
+        }
+    ],
+    "properties": {
+        "id": {
+            "type": "String"
+        },
+        "name": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
+        },
+        "gl_debit": {
+            "type": "String"
+        },
+        "gl_credit": {
+            "type": "String"
+        },
+        "variance_threshold": {
+            "min": 1,
+            "max": 100,
+            "type": "Real"
+        },
+        "parent_id": {
+            "type": "String"
+        },
+        "level": {
+            "type": "Integer"
+        },
+        "is_parent": {
+            "type": "Boolean"
+        },
+        "items_amount": {
+            "type": "Integer"
+        },
+        "is_transferable": {
+            "type": "Boolean"
+        }
+    }
+}
