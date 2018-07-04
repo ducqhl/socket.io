@@ -57,6 +57,9 @@
         },
         "mergerable_count": {
             "type": "Integer"
+        },
+        "summer": {
+            "type": "Integer"
         }
     }
 }

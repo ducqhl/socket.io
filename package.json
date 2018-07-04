@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/kitokip/socket.io/issues"
   },
-  "homepage": "https://github.com/kitokip/socket.io#readme"
+  "homepage": "https://github.com/kitokip/socket.io#readme",
+  "devDependencies": {}
 }
