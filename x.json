@@ -52,9 +52,6 @@
         "is_transferable": {
             "type": "Boolean"
         },
-        "is_mergerable": {
-            "type": "Boolean"
-        },
         "mergerable_type": {
             "type": "String"
         }
