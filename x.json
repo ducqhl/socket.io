@@ -54,6 +54,9 @@
         },
         "is_mergerable": {
             "type": "Boolean"
+        },
+        "mergerable_type": {
+            "type": "String"
         }
     }
 }
