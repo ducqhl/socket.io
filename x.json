@@ -49,10 +49,10 @@
         "level": {
             "type": "Integer"
         },
-        "is_parent": {
+        "is_transferable": {
             "type": "Boolean"
         },
-        "is_transferable": {
+        "is_mergerable": {
             "type": "Boolean"
         }
     }
