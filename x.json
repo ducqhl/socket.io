@@ -56,7 +56,7 @@
             "type": "String"
         },
         "mergerable_count": {
-            "type": "String"
+            "type": "Integer"
         }
     }
 }
