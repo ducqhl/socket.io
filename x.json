@@ -54,6 +54,9 @@
         },
         "mergerable_type": {
             "type": "String"
+        },
+        "mergerable_count": {
+            "type": "String"
         }
     }
 }
