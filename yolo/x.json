@@ -1,0 +1,70 @@
+{
+    "name": "InventoryCategory",
+    "version": "1",
+    "metadata": false,
+    "embedded": false,
+    "package": "inventory",
+    "indexes": [
+        {
+            "keys": [
+                "id"
+            ],
+            "options": {
+                "unique": true,
+                "primary": true
+            }
+        },
+        {
+            "keys": [
+                "name"
+            ],
+            "options": {
+                "unique": true
+            }
+        }
+    ],
+    "properties": {
+        "id": {
+            "type": "String"
+        },
+        "name": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
+        },
+        "gl_debit": {
+            "type": "String"
+        },
+        "gl_credit": {
+            "type": "String"
+        },
+        "variance_threshold": {
+            "min": 1,
+            "max": 100,
+            "type": "Real"
+        },
+        "parent_id": {
+            "type": "String"
+        },
+        "level": {
+            "type": "Integer"
+        },
+        "is_transferable": {
+            "type": "Boolean"
+        },
+        "mergerable_type": {
+            "type": "String"
+        },
+        "mergerable_count": {
+            "type": "Integer"
+        },
+        "summer": {
+            "type": "Integer"
+        },
+        "idrequire": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
+        }
+    }
+}

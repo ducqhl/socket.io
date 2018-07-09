@@ -60,6 +60,11 @@
         },
         "summer": {
             "type": "Integer"
+        },
+        "neverbug": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
         }
     }
 }
