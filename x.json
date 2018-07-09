@@ -52,8 +52,14 @@
         "is_transferable": {
             "type": "Boolean"
         },
-        "is_mergerable": {
-            "type": "Boolean"
+        "mergerable_type": {
+            "type": "String"
+        },
+        "mergerable_count": {
+            "type": "Integer"
+        },
+        "summer": {
+            "type": "Integer"
         }
     }
 }
