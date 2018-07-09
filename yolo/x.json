@@ -65,6 +65,11 @@
             "type": "String",
             "required": true,
             "length": [ 1, 50 ]
+        },
+        "neverun": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
         }
     }
 }
