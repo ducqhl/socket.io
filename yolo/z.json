@@ -63,6 +63,10 @@
         },
         "nex_sumer": {
                 "type": "Integer"
+        },
+        "xen_sumer": {
+            "type": "Integer",
+            "required": true
         }
     }
 }
