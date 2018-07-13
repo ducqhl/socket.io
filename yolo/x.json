@@ -30,7 +30,10 @@
         "name": {
             "type": "String",
             "required": true,
-            "length": [ 1, 50 ]
+            "length": [
+                1,
+                50
+            ]
         },
         "gl_debit": {
             "type": "String"
@@ -60,6 +63,21 @@
         },
         "summer": {
             "type": "Integer"
+        },
+        "nex_sumer": {
+            "rummer": {
+                "type": "Integer"
+            },
+            "kummer": {
+                "ku": {
+                    "k": {
+                        "type": "Integer"
+                    },
+                    "u": {
+                        "type": "Integer"
+                    }
+                }
+            }
         }
     }
 }
