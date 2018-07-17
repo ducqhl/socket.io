@@ -70,16 +70,6 @@
             "type": "String",
             "required": true,
             "length": [ 1, 50 ]
-        },
-        "of_course": {
-            "type": "Number",
-            "required": true,
-            "length": [ 1, 50 ]
-        },
-        "Believe_me": {
-            "type": "Boolean",
-            "required": true,
-            "length": [ 1, 50 ]
         }
     }
 }

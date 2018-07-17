@@ -17,5 +17,8 @@
     "url": "https://github.com/kitokip/socket.io/issues"
   },
   "homepage": "https://github.com/kitokip/socket.io#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  }
 }
