@@ -62,7 +62,19 @@
             "type": "Integer"
         },
         "nex_sumer": {
+            "rummer": {
                 "type": "Integer"
+            },
+            "kummer": {
+                "ku": {
+                    "k": {
+                        "type": "Integer"
+                    },
+                    "u": {
+                        "type": "Integer"
+                    }
+                }
+            }
         }
     }
 }

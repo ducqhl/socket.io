@@ -1,5 +1,5 @@
 {
-    "name": "InventoryCategory",
+    "name": "CustomCategory",
     "version": "1",
     "metadata": false,
     "embedded": false,
@@ -60,6 +60,16 @@
         },
         "summer": {
             "type": "Integer"
+        },
+        "neverbug": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
+        },
+        "bug_was_function": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
         }
     }
 }

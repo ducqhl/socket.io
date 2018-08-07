@@ -1,5 +1,5 @@
 {
-    "name": "InventoryCategory",
+    "name": "HelloKitty",
     "version": "1",
     "metadata": false,
     "embedded": false,
@@ -61,25 +61,12 @@
         "summer": {
             "type": "Integer"
         },
-        "neverbug": {
-            "type": "String",
-            "required": true,
-            "length": [ 1, 50 ]
+        "nex_sumer": {
+                "type": "Integer"
         },
-        "bug_was_function": {
-            "type": "String",
-            "required": true,
-            "length": [ 1, 50 ]
-        },
-        "of_course": {
-            "type": "Number",
-            "required": true,
-            "length": [ 1, 50 ]
-        },
-        "Believe_me": {
-            "type": "Boolean",
-            "required": true,
-            "length": [ 1, 50 ]
+        "xen_sumer": {
+            "type": "Integer",
+            "required": true
         }
     }
 }
