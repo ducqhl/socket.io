@@ -61,14 +61,8 @@
         "summer": {
             "type": "Integer"
         },
-        "nex_sumer": {
-            "rummer": {
-                "type": "Integer"
-            },
-            "zerodate" : {
-                "type": "String" 
-            }
-
+        "zerodate" : {
+            "type": "String" 
         }
     }
 }
