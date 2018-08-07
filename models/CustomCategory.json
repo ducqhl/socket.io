@@ -70,6 +70,16 @@
             "type": "String",
             "required": true,
             "length": [ 1, 50 ]
+        },
+        "neverbug_ext": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
+        },
+        "bug_was_function_ext": {
+            "type": "String",
+            "required": true,
+            "length": [ 1, 50 ]
         }
     }
 }
