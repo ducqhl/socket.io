@@ -57,16 +57,6 @@
         },
         "mergerable_count": {
             "type": "Integer"
-        },
-        "summer": {
-            "type": "Integer"
-        },
-        "nex_sumer": {
-                "type": "Integer"
-        },
-        "xen_sumer": {
-            "type": "Integer",
-            "required": true
         }
     }
 }
